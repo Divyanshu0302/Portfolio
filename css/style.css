@@ -10,6 +10,7 @@
     outline: none;
     /* scroll-behavior: smooth; */
     font-family: 'Poppins', sans-serif;
+    cursor: none;
 }
 
 .cursor-dot {
@@ -51,7 +52,7 @@ html {
 body {
     background-color: var(--bg-color);
     color: var(--text-color);
-    cursor: none;
+    
 }
 
 section {
@@ -69,14 +70,14 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 100;
+    /* z-index: 100; */
 }
 
 .logo {
     font-size: 2.5rem;
     color: var(--text-color);
     font-weight: 600;
-    cursor: default;
+    /* cursor: default; */
 }
 
 .navbar a {
@@ -165,7 +166,7 @@ span {
     font-weight: 700;
     word-spacing: .1rem;
     transition: .3s;
-    cursor: none;
+    /* cursor: none; */
 }
 
 .btn:hover {
